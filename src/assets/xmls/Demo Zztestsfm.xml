@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xsi:schemaLocation="urn:hl7-org:v3 http://hit-testing.nist.gov:11080/hitspValidation/schema/cdar2c32/infrastructure/cda/C32_CDA.xsd">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <id root="OCPRHIO" extension="qHH-RORF_d7-cxBE"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of Episode Note"/>
+  <title>Summarization of Episode Note</title>
+  <effectiveTime value="20161215103931-0800"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
+  <languageCode code="en-US"/>
+  <setId nullFlavor="NA"/>
+  <versionNumber nullFlavor="NA"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.1887.2" extension="179776"/>
+      <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="UID.179775"/>
+      <addr><streetAddressLine>401 W KATELLA AVE</streetAddressLine><city>ANAHEIM</city><state>CA</state><postalCode>92804</postalCode></addr>
+      <telecom value="tel:(909)090-9090" use="HP"/>
+      <telecom value="tel:(760)946-2323" use="WP"/>
+      <patient>
+        <name><family>ZZTESTSFM</family><given>DEMO</given></name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="Administrative Gender" displayName="Male">
+          <originalText>Male</originalText>
+          <translation code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGenderCode" displayName="Male"/>
+        </administrativeGenderCode>
+        <birthTime value="19971214000000-0800"/>
+        <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.11" codeSystemName="HL7 v2.6" displayName="Married">
+          <originalText>Married</originalText>
+          <translation code="M" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode" displayName="Married"/>
+        </maritalStatusCode>
+        <religiousAffiliationCode code="1007" codeSystem="2.16.840.1.113883.5.1076" codeSystemName="2.16.840.1.113883.5.1076" displayName="Atheism"/>
+        <raceCode code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDC Race and Ethnicity" displayName="Asian">
+          <originalText>Asian</originalText>
+          <translation code="2028-9" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Asian"/>
+        </raceCode>
+        <ethnicGroupCode code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="CDC Race and Ethnicity" displayName="HISPANIC OR LATINO">
+          <originalText>HISPANIC OR LATINO</originalText>
+          <translation code="2135-2" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="Hispanic or Latino"/>
+        </ethnicGroupCode>
+        <languageCommunication>
+          <languageCode code="ger"/>
+          <preferenceInd value="true"/>
+        </languageCommunication>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20161215103931-0800"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <dataEnterer>
+    <time value="20161215103931-0800"/>
+    <assignedEntity>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <assignedPerson>
+        <name nullFlavor="NA"/>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedEntity>
+  </dataEnterer>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+          <title>Allergies, Adverse Reactions, Alerts</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Type</th>
+<th>Substance</th>
+<th>Status</th>
+<th>Reaction</th>
+<th>Procedure Intervention Code</th>
+<th>Medication Intervention Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="allergy-type-1">Allergy To Substance (disorder)</content>
+</td>
+<td>
+<content ID="allergy-substance-1">cyanocobalamin</content>
+</td>
+<td>
+<content>Active (qualifier value)</content>
+</td>
+<td>
+<content ID="entry-1-allergy-reaction-1">UNK </content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="allergy-type-2">Allergy To Substance (disorder)</content>
+</td>
+<td>
+<content ID="allergy-substance-2">Acetaminophen</content>
+</td>
+<td>
+<content>Active (qualifier value)</content>
+</td>
+<td>
+<content ID="entry-2-allergy-reaction-1">UNK </content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="allergy-type-3">Allergy To Substance (disorder)</content>
+</td>
+<td>
+<content ID="allergy-substance-3">mecobalamin</content>
+</td>
+<td>
+<content>Active (qualifier value)</content>
+</td>
+<td>
+<content ID="entry-3-allergy-reaction-1">UNK </content>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low value="20160107000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="42b2ecc3-bccc-8281-12fc-de3f6c3992db"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20160107000000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Allergy to substance (disorder)">
+                    <originalText><reference value="#allergy-type-1"/></originalText>
+                    <translation code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="DA">
+                      <originalText>DA</originalText>
+                    </translation>
+                    <translation code="DA" codeSystem="2.16.840.1.113883.3.86.3.1" codeSystemName="ISC-NoCodeSystem" displayName="DA"/>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code nullFlavor="UNK">
+                          <originalText>cyanocobalamin<reference value="#allergy-substance-1"/></originalText>
+                        </code>
+                        <name>cyanocobalamin</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CE" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active">
+                          <originalText>Active</originalText>
+                        </translation>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id root="3c00f795-e9f2-cdfe-04b4-642657586184"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text>Itching or Urticaria<reference value="#entry-1-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20160107000000-0800"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" nullFlavor="UNK"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low value="20160107000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="9af6088c-b3f1-e315-6bff-3b8b03173988"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20160107000000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Allergy to substance (disorder)">
+                    <originalText><reference value="#allergy-type-2"/></originalText>
+                    <translation code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="DA">
+                      <originalText>DA</originalText>
+                    </translation>
+                    <translation code="DA" codeSystem="2.16.840.1.113883.3.86.3.1" codeSystemName="ISC-NoCodeSystem" displayName="DA"/>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code code="RXN-161" codeSystem="CAT" codeSystemName="CAT" displayName="Acetaminophen">
+                          <originalText>Acetaminophen<reference value="#allergy-substance-2"/></originalText>
+                        </code>
+                        <name>Acetaminophen</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CE" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active">
+                          <originalText>Active</originalText>
+                        </translation>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id root="e9850c1b-0fa5-f7dd-1453-3da387bdc38c"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text>Diarrhea<reference value="#entry-2-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20160107000000-0800"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" nullFlavor="UNK"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low value="20160107000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="4d50284b-e1d3-47b6-2fb2-b765ee568349"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20160107000000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Allergy to substance (disorder)">
+                    <originalText><reference value="#allergy-type-3"/></originalText>
+                    <translation code="419199007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="DA">
+                      <originalText>DA</originalText>
+                    </translation>
+                    <translation code="DA" codeSystem="2.16.840.1.113883.3.86.3.1" codeSystemName="ISC-NoCodeSystem" displayName="DA"/>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code nullFlavor="UNK">
+                          <originalText>mecobalamin<reference value="#allergy-substance-3"/></originalText>
+                        </code>
+                        <name>mecobalamin</name>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.28"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CE" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active">
+                          <originalText>Active</originalText>
+                        </translation>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id root="07e615c6-6a02-646d-ce65-170da7c1c06e"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text>Itching or Urticaria<reference value="#entry-3-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20160107000000-0800"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" nullFlavor="UNK"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use"/>
+          <title>Medications</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Description</th>
+<th>Medication</th>
+<th>Start Date</th>
+<th>Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+<th>Procedure Intervention Code</th>
+<th>Reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="medication-description-1">Once </content>
+</td>
+<td>
+<content ID="medication-1">Metoclopramide 5 MG Oral Tablet</content>
+</td>
+<td>
+<content>01/21/2016 12:00:00 AM PST</content>
+</td>
+<td>
+<content>completed</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="medication-description-2">Every 6 Hours as needed for Anxiety </content>
+</td>
+<td>
+<content ID="medication-2">Aspirin 325 MG Oral Tablet</content>
+</td>
+<td>
+<content>01/21/2016 12:00:00 AM PST</content>
+</td>
+<td>
+<content>completed</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="89F2B71C-44AB-11E6-AB17-5056AB197400"/>
+              <code nullFlavor="UNK"/>
+              <text>Once <reference value="#medication-description-1"/></text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20160121000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <effectiveTime xsi:type="PIVL_TS" operator="A" institutionSpecified="true">
+                <period/>
+              </effectiveTime>
+              <repeatNumber value="0"/>
+              <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Oral Route of Administration">
+                <translation code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+              </routeCode>
+              <approachSiteCode nullFlavor="UNK"/>
+              <doseQuantity value="5" unit="mg"/>
+              <maxDoseQuantity>
+                <numerator nullFlavor="UNK"/>
+                <denominator nullFlavor="UNK"/>
+              </maxDoseQuantity>
+              <administrationUnitCode nullFlavor="UNK"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <id nullFlavor="UNK"/>
+                  <manufacturedMaterial>
+                    <code code="311668" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" displayName="Metoclopramide 5 MG Oral Tablet">
+                      <originalText>Metoclopramide 5 MG Oral Tablet<reference value="#medication-1"/></originalText>
+                      <translation code="311668" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" displayName="Metoclopramide 5 MG Oral Tablet"/>
+                    </code>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </substanceAdministration>
+          </entry>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="89F302C6-44AB-11E6-AB17-5056AB197400"/>
+              <code nullFlavor="UNK"/>
+              <text>Every 6 Hours as needed for Anxiety <reference value="#medication-description-2"/></text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low value="20160121000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <effectiveTime xsi:type="PIVL_TS" operator="A" institutionSpecified="true">
+                <period/>
+              </effectiveTime>
+              <repeatNumber value="0"/>
+              <routeCode code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="NCI Thesaurus" displayName="Oral Route of Administration">
+                <translation code="C38288" codeSystem="2.16.840.1.113883.3.26.1.1" codeSystemName="2.16.840.1.113883.3.26.1.1" displayName="ORAL"/>
+              </routeCode>
+              <approachSiteCode nullFlavor="UNK"/>
+              <doseQuantity value="325" unit="mg"/>
+              <maxDoseQuantity>
+                <numerator nullFlavor="UNK"/>
+                <denominator nullFlavor="UNK"/>
+              </maxDoseQuantity>
+              <administrationUnitCode nullFlavor="UNK"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <id nullFlavor="UNK"/>
+                  <manufacturedMaterial>
+                    <code code="212033" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" displayName="Aspirin 325 MG Oral Tablet">
+                      <originalText>Aspirin 325 MG Oral Tablet<reference value="#medication-2"/></originalText>
+                      <translation code="212033" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RXNORM" displayName="Aspirin 325 MG Oral Tablet"/>
+                    </code>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List"/>
+          <title>Problems</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Concern Status</th>
+<th>Problem Code</th>
+<th>Problem Name</th>
+<th>Problem Description</th>
+<th>Problem Type</th>
+<th>Effective Dates</th>
+<th>Problem Status Description</th>
+<th>Health Status Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td/>
+<td>
+<content>194828000</content>
+</td>
+<td>
+<content>Angina (disorder)</content>
+</td>
+<td>
+<content ID="condition-problem-description-1">Angina pectoris </content>
+</td>
+<td>
+<content>Problem (finding)</content>
+</td>
+<td>
+<content/>
+</td>
+<td>
+<content ID="condition-problem-status-description-1">Active</content>
+</td>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>73211009</content>
+</td>
+<td>
+<content>Diabetes mellitus (disorder)</content>
+</td>
+<td>
+<content ID="condition-problem-description-2">Diabetes </content>
+</td>
+<td>
+<content>Problem (finding)</content>
+</td>
+<td>
+<content/>
+</td>
+<td>
+<content ID="condition-problem-status-description-2">Active</content>
+</td>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>426875007</content>
+</td>
+<td>
+<content>Latent autoimmune diabetes mellitus in adult (disorder)</content>
+</td>
+<td>
+<content ID="condition-problem-description-3">Diabetes 1.5, managed as type 1 </content>
+</td>
+<td>
+<content>Problem (finding)</content>
+</td>
+<td>
+<content/>
+</td>
+<td>
+<content ID="condition-problem-status-description-3">Active</content>
+</td>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>9209005</content>
+</td>
+<td>
+<content>Acute abdomen (disorder)</content>
+</td>
+<td>
+<content ID="condition-problem-description-4"/>
+</td>
+<td>
+<content>Problem (finding)</content>
+</td>
+<td>
+<content/>
+</td>
+<td>
+<content ID="condition-problem-status-description-4">Active</content>
+</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="5eac0cd5-33c3-a9aa-79ab-31282bbfa735"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="5eac0cd5-33c3-a9aa-79ab-31282bbfa735"/>
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Problem (finding)">
+                    <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Problem">
+                      <originalText>Problem</originalText>
+                    </translation>
+                  </code>
+                  <text>Angina pectoris <reference value="#condition-problem-description-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="194828000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Angina (disorder)">
+                    <translation code="194828000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Angina pectoris">
+                      <originalText>Angina pectoris</originalText>
+                    </translation>
+                  </value>
+                  <entryRelationship typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <text>Active<reference value="#condition-problem-status-description-1"/></text>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active"/>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="2a27adba-82c4-d360-0e47-640169868efa"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="2a27adba-82c4-d360-0e47-640169868efa"/>
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Problem (finding)">
+                    <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Problem">
+                      <originalText>Problem</originalText>
+                    </translation>
+                  </code>
+                  <text>Diabetes <reference value="#condition-problem-description-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="73211009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Diabetes mellitus (disorder)">
+                    <translation code="73211009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Diabetes">
+                      <originalText>Diabetes</originalText>
+                    </translation>
+                  </value>
+                  <entryRelationship typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <text>Active<reference value="#condition-problem-status-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active"/>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="ea4e162b-6af7-88ce-6ae8-a5ac727e6273"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="ea4e162b-6af7-88ce-6ae8-a5ac727e6273"/>
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Problem (finding)">
+                    <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Problem">
+                      <originalText>Problem</originalText>
+                    </translation>
+                  </code>
+                  <text>Diabetes 1.5, managed as type 1 <reference value="#condition-problem-description-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="426875007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Latent autoimmune diabetes mellitus in adult (disorder)">
+                    <translation code="426875007" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Diabetes 1.5, managed as type 1">
+                      <originalText>Diabetes 1.5, managed as type 1</originalText>
+                    </translation>
+                  </value>
+                  <entryRelationship typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <text>Active<reference value="#condition-problem-status-description-3"/></text>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active"/>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="591c181d-08ad-6139-7442-fe7cb99b11ae"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="591c181d-08ad-6139-7442-fe7cb99b11ae"/>
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Problem (finding)">
+                    <translation code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Problem">
+                      <originalText>Problem</originalText>
+                    </translation>
+                  </code>
+                  <text><reference value="#condition-problem-description-4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="9209005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Acute abdomen (disorder)">
+                    <translation code="9209005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Acute abdomen">
+                      <originalText>Acute abdomen</originalText>
+                    </translation>
+                  </value>
+                  <entryRelationship typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.6"/>
+                      <code code="33999-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Status"/>
+                      <text>Active<reference value="#condition-problem-status-description-4"/></text>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CD" code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Active (qualifier value)">
+                        <translation code="55561003" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Active"/>
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Relevant diagnostic tests and/or laboratory data"/>
+          <title>Results</title>
+          <text><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>16:M0000048_00007059_G</td>
+<td>01/20/2016 04:07:00 PM PST</td>
+<td>St. Joseph - Heritage</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>0120:K00023_9349</td>
+<td>01/20/2016 04:06:00 PM PST</td>
+<td>St. Joseph - Heritage</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>0120:C00015_9350</td>
+<td>01/20/2016 04:06:00 PM PST</td>
+<td>St. Joseph - Heritage</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>0120:C00014_9348</td>
+<td>01/20/2016 04:06:00 PM PST</td>
+<td>St. Joseph - Heritage</td>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="16:M0000048_00007059_G"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="16:M0000048_00007059_G"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="16:M0000048_00007059_G"/>
+              <code nullFlavor="UNK">
+                <originalText>G</originalText>
+                <translation nullFlavor="UNK">
+                  <originalText>G</originalText>
+                </translation>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20160120160700-0800"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="0120:K00023_9349"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="0120:K00023_9349"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="0120:K00023_9349"/>
+              <code nullFlavor="UNK">
+                <originalText>0120:K00023_9349</originalText>
+                <translation nullFlavor="UNK">
+                  <originalText>0120:K00023_9349</originalText>
+                </translation>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20160120160600-0800"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="0120:C00015_9350"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="0120:C00015_9350"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="0120:C00015_9350"/>
+              <code nullFlavor="UNK">
+                <originalText>0120:C00015_9350</originalText>
+                <translation nullFlavor="UNK">
+                  <originalText>0120:C00015_9350</originalText>
+                </translation>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20160120160600-0800"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="0120:C00014_9348"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="0120:C00014_9348"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="0120:C00014_9348"/>
+              <code code="1700800" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT-4" displayName="BASIC METABOLIC PANEL">
+                <translation code="1700800" codeSystem="2.16.840.1.113883.6.12" codeSystemName="CPT-4" displayName="BASIC METABOLIC PANEL"/>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime value="20160120160600-0800"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+          <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Social history"/>
+          <title>Social History</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Social History Type</th>
+<th>Description</th>
+<th>Effective Dates</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="social-history-1">Smoking Status</content>
+</td>
+<td>
+<content>Never A Smoker</content>
+</td>
+<td>
+<content>01/03/2016 02:50:00 PM PST</content>
+</td>
+</tr>
+<tr>
+<td>
+<content>Smoking Status Observation</content>
+</td>
+<td>
+<content>Tobacco smoking consumption unknown (finding)</content>
+</td>
+<td>
+<content/>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.38"/>
+              <id root="ab0865d0-ff9b-19dd-4076-a8828e994fce"/>
+              <code nullFlavor="UNK">
+                <originalText>Smoking Status<reference value="#social-history-1"/></originalText>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low value="20160103145000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <value xsi:type="ST">Never A Smoker</value>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </observation>
+          </entry>
+          <entry typeCode="DRIV">
+            <observation classCode="OBS" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+              <id root="d1165e9d-526f-a8c5-8c91-f1e79e066039"/>
+              <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <value xsi:type="CD" code="266927001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED" displayName="Tobacco smoking consumption unknown (finding)">
+                <translation code="266927001" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SCT" displayName="Unknown if ever smoked">
+                  <originalText>Unknown if ever smoked</originalText>
+                </translation>
+              </value>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="1.3.6.1.4.1.22812.3.8223907.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="1.3.6.1.4.1.22812.3.8223907.3" extension="SJH"/>
+                    <name>St. Joseph - Heritage</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+            </observation>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

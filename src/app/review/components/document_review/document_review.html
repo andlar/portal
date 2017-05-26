@@ -8,6 +8,10 @@
       <div class="clearfix"></div>
     </div>
     <div class="panel-body">
+      <a href ng-click="vm.viewAll()" class="pull-right">View all</a>
+      <select ng-change="vm.loadFakeXmlDocument()" ng-model="vm.fakeDocument" class="pull-right"
+              ng-options="document.name for document in vm.fakeDocuments | orderBy: 'name'">
+      </select>
       <div ng-if="vm.activeDocument">
         Showing&nbsp;
         <select ng-model="vm.displayType">
@@ -20,6 +24,9 @@
       </div>
       <div ng-if="!vm.activeDocument">
         No document currently loaded
+      </div>
+      <div ng-repeat="doc in vm.allFakeDocuments track by $index">
+        <div ng-bind-html="doc"></div>
       </div>
     </div>
   </div>

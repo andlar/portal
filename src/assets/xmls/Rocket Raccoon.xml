@@ -1,0 +1,4557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xsi:schemaLocation="urn:hl7-org:v3 http://hit-testing.nist.gov:11080/hitspValidation/schema/cdar2c32/infrastructure/cda/C32_CDA.xsd">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <id root="OCPRHIO" extension="zNN5t5oSLVt7Ryor"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of Episode Note"/>
+  <title>Summarization of Episode Note</title>
+  <effectiveTime value="20161215104127-0800"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
+  <languageCode code="en-US"/>
+  <setId nullFlavor="NA"/>
+  <versionNumber nullFlavor="NA"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.1887.2" extension="159086"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8887779714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999123"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8887779714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999123"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8887779714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999123"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8887779714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999123"/>
+      <addr><streetAddressLine>23 South St</streetAddressLine><city>Xandar</city><state>CA</state><postalCode>99999</postalCode><country>US</country></addr>
+      <telecom value="tel:(888)777-9714" use="HP"/>
+      <patient>
+        <name><family>Raccoon</family><given>Rocket</given></name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGenderCode" displayName="M"/>
+        <birthTime value="19690101000000-0800"/>
+        <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.5.2" codeSystemName="MaritalStatusCode" displayName="MARRIED"/>
+        <religiousAffiliationCode nullFlavor="UNK"/>
+        <raceCode nullFlavor="UNK"/>
+        <ethnicGroupCode code="U" codeSystem="HL70189" displayName="Unknown / Not Reported"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20161215104127-0800"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <dataEnterer>
+    <time value="20161215104127-0800"/>
+    <assignedEntity>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <assignedPerson>
+        <name nullFlavor="NA"/>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedEntity>
+  </dataEnterer>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+          <title>Allergies, Adverse Reactions, Alerts</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Type</th>
+<th>Substance</th>
+<th>Status</th>
+<th>Reaction</th>
+<th>Procedure Intervention Code</th>
+<th>Medication Intervention Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="allergy-type-1">UNK</content>
+</td>
+<td>
+<content ID="allergy-substance-1">morphine</content>
+</td>
+<td/>
+<td>
+<content ID="entry-1-allergy-reaction-1">Swelling/Edema </content>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="morphine"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <originalText><reference value="#allergy-type-1"/></originalText>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code code="morphine" displayName="morphine">
+                          <originalText><reference value="#allergy-substance-1"/></originalText>
+                        </code>
+                        <name nullFlavor="UNK"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id nullFlavor="UNK"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text><reference value="#entry-1-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="Swelling/Edema" displayName="Swelling/Edema"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use"/>
+          <title>Medications</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Description</th>
+<th>Medication</th>
+<th>Start Date</th>
+<th>Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+<th>Procedure Intervention Code</th>
+<th>Reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="medication-description-1"/>
+</td>
+<td>
+<content ID="medication-1">QUETIAPINE 300 MG TABLET(SEROQUEL 300 MG TABLET)</content>
+</td>
+<td/>
+<td>
+<content>DC</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="M001CDVPGD"/>
+              <code nullFlavor="UNK"/>
+              <text><reference value="#medication-description-1"/></text>
+              <statusCode code="DC"/>
+              <routeCode nullFlavor="UNK"/>
+              <approachSiteCode nullFlavor="UNK"/>
+              <doseQuantity value="1" unit="tablet(s)"/>
+              <maxDoseQuantity>
+                <numerator nullFlavor="UNK"/>
+                <denominator nullFlavor="UNK"/>
+              </maxDoseQuantity>
+              <administrationUnitCode code="TABLET" displayName="TABLET"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <id nullFlavor="UNK"/>
+                  <manufacturedMaterial>
+                    <code code="20588" displayName="QUETIAPINE 300 MG TABLET(SEROQUEL 300 MG TABLET)">
+                      <originalText><reference value="#medication-1"/></originalText>
+                    </code>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <performer>
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id nullFlavor="UNK"/>
+                  <code nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>GUTIERREZ</family><given>CANDACE</given><prefix>MD (R)</prefix></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2038264061"/>
+                </encounter>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List"/>
+          <title>Problems</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Concern Status</th>
+<th>Problem Code</th>
+<th>Problem Name</th>
+<th>Problem Description</th>
+<th>Problem Type</th>
+<th>Effective Dates</th>
+<th>Problem Status Description</th>
+<th>Health Status Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td/>
+<td>
+<content>V74.1</content>
+</td>
+<td>
+<content>Screening examination for pulmonary tuberculosis</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-1"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>V70.0</content>
+</td>
+<td>
+<content>ADULT HEALTH EXAMINATION</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>401.9</content>
+</td>
+<td>
+<content>/ ESSENTIAL HYPERTENSION, UNSPECIFIED</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-3"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>784.59</content>
+</td>
+<td>
+<content>SPEECH DISTURBANCE NEC</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-4"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>787.20</content>
+</td>
+<td>
+<content>DYSPHAGIA NOS</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V74.1"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V74.1"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V74.1" displayName="Screening examination for pulmonary tuberculosis"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V70.0"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V70.0"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V70.0" displayName="ADULT HEALTH EXAMINATION"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="401.9"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="401.9"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="401.9" displayName="/ ESSENTIAL HYPERTENSION, UNSPECIFIED"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="784.59"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="784.59"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="784.59" displayName="SPEECH DISTURBANCE NEC"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="787.20"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120103000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="787.20"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-5"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140120103000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="787.20" displayName="DYSPHAGIA NOS"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+          <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Procedures"/>
+          <title>Procedures</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Procedure</th>
+<th>Procedure Date</th>
+<th>Procedure Instructions</th>
+<th>Medication Description</th>
+<th>Medication</th>
+<th>Medication Start Date</th>
+<th>Medication Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="procedure-1">OFFICE/OUTPATIENT VISIT, EST</content>
+</td>
+<td>
+<content>01/20/2014 12:00:00 AM PST</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="procedure-2">TB INTRADERMAL TEST</content>
+</td>
+<td>
+<content>01/20/2014 12:00:00 AM PST</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="procedure-3">DSCHRG MED/CURRENT MED MERGE</content>
+</td>
+<td>
+<content>01/20/2014 12:00:00 AM PST</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="99213"/>
+              <code code="99213" displayName="OFFICE/OUTPATIENT VISIT, EST">
+                <originalText><reference value="#procedure-1"/></originalText>
+              </code>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </procedure>
+          </entry>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="86580"/>
+              <code code="86580" displayName="TB INTRADERMAL TEST">
+                <originalText><reference value="#procedure-2"/></originalText>
+              </code>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </procedure>
+          </entry>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="1111F"/>
+              <code code="1111F" displayName="DSCHRG MED/CURRENT MED MERGE">
+                <originalText><reference value="#procedure-3"/></originalText>
+              </code>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140120000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </procedure>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Relevant diagnostic tests and/or laboratory data"/>
+          <title>Results</title>
+          <text><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>CBC</td>
+<td>07/26/2014 07:40:00 AM PDT</td>
+<td>STJOE</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Range</th>
+<th>Interpretation Code</th>
+<th>Notes</th>
+<th>Data Source(s)</th>
+<th>Supporting Document(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>White Blood Cell Count</th>
+<td>
+<content>5.4 K/uL</content>
+</td>
+<td>3.5-10.9</td>
+<td/>
+<td>
+<content ID="entry-1-result-1-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Red Blood Cell Count</th>
+<td>
+<content>4.04 M/uL</content>
+</td>
+<td>3.60-5.04</td>
+<td/>
+<td>
+<content ID="entry-1-result-2-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Hemoglobin</th>
+<td>
+<content>12.2 g/dL</content>
+</td>
+<td>11.0-15.2</td>
+<td/>
+<td>
+<content ID="entry-1-result-3-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Hematocrit</th>
+<td>
+<content>36.6 %</content>
+</td>
+<td>33.0-44.8</td>
+<td/>
+<td>
+<content ID="entry-1-result-4-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Mean Corpuscular Volume</th>
+<td>
+<content>90.6 fL</content>
+</td>
+<td>81-100</td>
+<td/>
+<td>
+<content ID="entry-1-result-5-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Mean Corpuscular Hemoglobin</th>
+<td>
+<content>30.3 pg</content>
+</td>
+<td>27.3-33.9</td>
+<td/>
+<td>
+<content ID="entry-1-result-6-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Mean Corp Hgb Concentration</th>
+<td>
+<content>33.4 g/dL</content>
+</td>
+<td>31.7-35.5</td>
+<td/>
+<td>
+<content ID="entry-1-result-7-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Red Cell Distribution Width</th>
+<td>
+<content>13.1 %</content>
+</td>
+<td>11.0-15.5</td>
+<td/>
+<td>
+<content ID="entry-1-result-8-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Platelet Count</th>
+<td>
+<content>140 k/cmm</content>
+</td>
+<td>150-450</td>
+<td>L</td>
+<td>
+<content ID="entry-1-result-9-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Mean Platelet Volume</th>
+<td>
+<content>8.7 fL</content>
+</td>
+<td>7.5-12.5</td>
+<td/>
+<td>
+<content ID="entry-1-result-10-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Segmented Neutrophils %</th>
+<td>
+<content>66.0 %</content>
+</td>
+<td>37-78</td>
+<td/>
+<td>
+<content ID="entry-1-result-11-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Lymphocytes %</th>
+<td>
+<content>23.4 %</content>
+</td>
+<td>15-49</td>
+<td/>
+<td>
+<content ID="entry-1-result-12-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Monocytes %</th>
+<td>
+<content>9.8 %</content>
+</td>
+<td>0-8</td>
+<td>H</td>
+<td>
+<content ID="entry-1-result-13-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Eosinophils %</th>
+<td>
+<content>0.6 %</content>
+</td>
+<td>0-5</td>
+<td/>
+<td>
+<content ID="entry-1-result-14-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Basophils %</th>
+<td>
+<content>0.3 %</content>
+</td>
+<td>0-2</td>
+<td/>
+<td>
+<content ID="entry-1-result-15-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Neutrophils #</th>
+<td>
+<content>3.530 k/uL</content>
+</td>
+<td>1.800-8.500</td>
+<td/>
+<td>
+<content ID="entry-1-result-16-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Lymphocytes #</th>
+<td>
+<content>1.250 k/uL</content>
+</td>
+<td>1.000-4.800</td>
+<td/>
+<td>
+<content ID="entry-1-result-17-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Monocytes #</th>
+<td>
+<content>0.522 k/uL</content>
+</td>
+<td>0.000-0.800</td>
+<td/>
+<td>
+<content ID="entry-1-result-18-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Eosinophils #</th>
+<td>
+<content>0.033 k/uL</content>
+</td>
+<td>0.000-0.700</td>
+<td/>
+<td>
+<content ID="entry-1-result-19-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Basophils #</th>
+<td>
+<content>0.015 k/uL</content>
+</td>
+<td>0.000-0.400</td>
+<td/>
+<td>
+<content ID="entry-1-result-20-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="CBC"/>
+              <id root="2.16.840.1.113883.3.248.999.996" extension="0726:H00280R"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="0726:H00280R"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="CBC"/>
+              <code code="CBC" codeSystem="LB" displayName="CBC w/ Differential">
+                <translation code="CBC" codeSystem="LB" displayName="CBC w/ Differential"/>
+              </code>
+              <statusCode code="F"/>
+              <effectiveTime value="20140726074000-0700"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="STJOE"/>
+                  <addr><country>US</country></addr>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="STJOE"/>
+                    <name>STJOE</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".WBC"/>
+                  <code code=".WBC" codeSystem="LB" displayName="White Blood Cell Count"/>
+                  <text><reference value="#entry-1-result-1-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">5.4 K/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>3.5-10.9</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="RBC"/>
+                  <code code="RBC" codeSystem="LB" displayName="Red Blood Cell Count"/>
+                  <text><reference value="#entry-1-result-2-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">4.04 M/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>3.60-5.04</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="HGB"/>
+                  <code code="HGB" codeSystem="LB" displayName="Hemoglobin"/>
+                  <text><reference value="#entry-1-result-3-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">12.2 g/dL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>11.0-15.2</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="HCT"/>
+                  <code code="HCT" codeSystem="LB" displayName="Hematocrit"/>
+                  <text><reference value="#entry-1-result-4-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">36.6 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>33.0-44.8</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MCV"/>
+                  <code code=".MCV" codeSystem="LB" displayName="Mean Corpuscular Volume"/>
+                  <text><reference value="#entry-1-result-5-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">90.6 fL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>81-100</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MCH"/>
+                  <code code=".MCH" codeSystem="LB" displayName="Mean Corpuscular Hemoglobin"/>
+                  <text><reference value="#entry-1-result-6-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">30.3 pg</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>27.3-33.9</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MCHC"/>
+                  <code code=".MCHC" codeSystem="LB" displayName="Mean Corp Hgb Concentration"/>
+                  <text><reference value="#entry-1-result-7-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">33.4 g/dL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>31.7-35.5</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".RDW"/>
+                  <code code=".RDW" codeSystem="LB" displayName="Red Cell Distribution Width"/>
+                  <text><reference value="#entry-1-result-8-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">13.1 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>11.0-15.5</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".PLT"/>
+                  <code code=".PLT" codeSystem="LB" displayName="Platelet Count"/>
+                  <text><reference value="#entry-1-result-9-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">140 k/cmm</value>
+                  <interpretationCode code="L" displayName="L"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>150-450</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MPV"/>
+                  <code code=".MPV" codeSystem="LB" displayName="Mean Platelet Volume"/>
+                  <text><reference value="#entry-1-result-10-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">8.7 fL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>7.5-12.5</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".NEU%"/>
+                  <code code=".NEU%" codeSystem="LB" displayName="Segmented Neutrophils %"/>
+                  <text><reference value="#entry-1-result-11-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">66.0 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>37-78</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".LYMP%"/>
+                  <code code=".LYMP%" codeSystem="LB" displayName="Lymphocytes %"/>
+                  <text><reference value="#entry-1-result-12-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">23.4 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>15-49</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MON%"/>
+                  <code code=".MON%" codeSystem="LB" displayName="Monocytes %"/>
+                  <text><reference value="#entry-1-result-13-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">9.8 %</value>
+                  <interpretationCode code="H" displayName="H"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0-8</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".EO%"/>
+                  <code code=".EO%" codeSystem="LB" displayName="Eosinophils %"/>
+                  <text><reference value="#entry-1-result-14-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">0.6 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0-5</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".BAS%"/>
+                  <code code=".BAS%" codeSystem="LB" displayName="Basophils %"/>
+                  <text><reference value="#entry-1-result-15-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">0.3 %</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0-2</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".NEUT"/>
+                  <code code=".NEUT" codeSystem="LB" displayName="Neutrophils #"/>
+                  <text><reference value="#entry-1-result-16-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">3.530 k/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>1.800-8.500</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".LYMP"/>
+                  <code code=".LYMP" codeSystem="LB" displayName="Lymphocytes #"/>
+                  <text><reference value="#entry-1-result-17-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">1.250 k/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>1.000-4.800</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".MONO"/>
+                  <code code=".MONO" codeSystem="LB" displayName="Monocytes #"/>
+                  <text><reference value="#entry-1-result-18-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">0.522 k/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0.000-0.800</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".EOS"/>
+                  <code code=".EOS" codeSystem="LB" displayName="Eosinophils #"/>
+                  <text><reference value="#entry-1-result-19-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">0.033 k/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0.000-0.700</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root=".BASO"/>
+                  <code code=".BASO" codeSystem="LB" displayName="Basophils #"/>
+                  <text><reference value="#entry-1-result-20-notes"/></text>
+                  <statusCode code="F"/>
+                  <effectiveTime value="20140726072900-0700"/>
+                  <value xsi:type="ST">0.015 k/uL</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SJML"/>
+                        <name>SJM Main Laboratory</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="STJOE"/>
+                      <addr><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="STJOE"/>
+                        <name>STJOE</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <referenceRange>
+                    <observationRange>
+                      <text>0.000-0.400</text>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+          <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Encounters"/>
+          <title>Encounters</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Encounter</th>
+<th>Providers</th>
+<th>Location</th>
+<th>Date</th>
+<th>Problem Code</th>
+<th>Problem Name</th>
+<th>Problem Description</th>
+<th>Effective Dates</th>
+<th>Problem Status Description</th>
+<th>Health Status Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="encounter1">O</content>
+</td>
+<td>
+<content>Referrer: ROSS NATHAN</content>
+</td>
+<td>
+<content>LPLB</content>
+</td>
+<td>
+<content>08/18/2014 01:29:21 PM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">R</content>
+</td>
+<td/>
+<td/>
+<td>
+<content>08/18/2014 12:00:08 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter3">EMERGENCY</content>
+</td>
+<td>
+<content>Attender: MARK LANGDORF</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>08/18/2014 09:11:46 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter4">O</content>
+</td>
+<td>
+<content>Attender: Lill Ramirez-Boyd</content>
+</td>
+<td/>
+<td>
+<content>07/26/2014 07:40:58 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>787.20</content>
+</td>
+<td>
+<content>DYSPHAGIA NOS</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>784.59</content>
+</td>
+<td>
+<content>SPEECH DISTURBANCE NEC</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>401.9</content>
+</td>
+<td>
+<content>/ ESSENTIAL HYPERTENSION, UNSPECIFIED</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>V70.0</content>
+</td>
+<td>
+<content>ADULT HEALTH EXAMINATION</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>V74.1</content>
+</td>
+<td>
+<content>Screening examination for pulmonary tuberculosis</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>01/20/2014 10:30:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter6">U</content>
+</td>
+<td/>
+<td/>
+<td>
+<content>11/04/2013 09:51:53 AM PST</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter7">O</content>
+</td>
+<td>
+<content>Attender: DAVID Keulen MD</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="700814"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter1"/></originalText>
+              </code>
+              <effectiveTime value="20140818132921-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="RADNET" extension="1013957679"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1013957679" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="REF" displayName="Referrer"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>NATHAN</family><given>ROSS</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="RADNET"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="RADNET"/>
+                    <name>RadNet</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC">
+                    <name>LPLB</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="166098800200"/>
+              <code code="R" displayName="R">
+                <originalText><reference value="#encounter2"/></originalText>
+              </code>
+              <effectiveTime value="20140818000008-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="2038264061"/>
+              <code code="EMERGENCY" displayName="EMERGENCY">
+                <originalText><reference value="#encounter3"/></originalText>
+              </code>
+              <effectiveTime value="20140818091146-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="UCI" extension="080333"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>LANGDORF</family><given>MARK</given><given>I</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC">
+                    <name>ERMAJ</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+              <entryRelationship typeCode="SUBJ">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.64"/>
+                  <code code="48767-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Annotation Comment"/>
+                  <text>Timing:NOW
+<reference value="encounter-notes-3"/></text>
+                </act>
+              </entryRelationship>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="20140725082400"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter4"/></originalText>
+              </code>
+              <effectiveTime value="20140726074058-0700"/>
+              <priorityCode code="EL" displayName="EL"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="STJOE" extension="RAMLI002"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1386663862" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>Ramirez-Boyd</family><given>Lill</given><given>F</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="STJOE"/>
+                  <addr><country>US</country></addr>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="STJOE"/>
+                    <name>STJOE</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="3675140"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter5"/></originalText>
+              </code>
+              <effectiveTime value="20140610144144-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="TEST" extension="1630"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1366480188" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>LE</family><given>TIM</given><given>T</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="787.20"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140120103000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="787.20" displayName="DYSPHAGIA NOS"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="784.59"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140120103000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="784.59" displayName="SPEECH DISTURBANCE NEC"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="401.9"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140120103000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="401.9" displayName="/ ESSENTIAL HYPERTENSION, UNSPECIFIED"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V70.0"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140120103000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V70.0" displayName="ADULT HEALTH EXAMINATION"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V74.1"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140120103000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V74.1" displayName="Screening examination for pulmonary tuberculosis"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="20131101181500"/>
+              <code code="U" displayName="U">
+                <originalText><reference value="#encounter6"/></originalText>
+              </code>
+              <effectiveTime value="20131104095153-0800"/>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="RADNET"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="RADNET"/>
+                    <name>RadNet</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="5203220"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter7"/></originalText>
+              </code>
+              <effectiveTime value="20140610144144-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="TEST" extension="1780747675"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1780747675" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>Keulen</family><given>DAVID</given><given>J</given><suffix qualifier="TITLE">MD</suffix></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.2"/>
+          <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
+          <title>Immunizations</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Description</th>
+<th>Vaccine</th>
+<th>Date</th>
+<th>Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+<th>Procedure Intervention Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="immunization-description-1"/>
+</td>
+<td>
+<content ID="Immunization-1">Tdap</content>
+</td>
+<td>
+<content>08/17/2014 12:01:00 AM PDT</content>
+</td>
+<td>
+<content>CP</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
+              <id root="115"/>
+              <code code="IMMUNIZ" codeSystem="2.16.840.1.113883.5.4" codeSystemName="ActCode"/>
+              <text><reference value="#immunization-description-1"/></text>
+              <statusCode code="CP"/>
+              <effectiveTime value="20140817000100-0700"/>
+              <routeCode nullFlavor="UNK"/>
+              <doseQuantity value="0.50" unit="mL"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54"/>
+                  <id nullFlavor="UNK"/>
+                  <manufacturedMaterial>
+                    <code code="115" codeSystem="CVX" displayName="Tdap">
+                      <originalText><reference value="#Immunization-1"/></originalText>
+                    </code>
+                    <lotNumberText>U4853AA</lotNumberText>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="REFR">
+                <supply classCode="SPLY" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.18"/>
+                  <id root="UCI" extension="115"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime xsi:type="IVL_TS">
+                    <low value="20140817000100-0700"/>
+                    <high value="20140817000100-0700"/>
+                  </effectiveTime>
+                  <quantity value="0.50" unit="mL"/>
+                  <product>
+                    <manufacturedProduct classCode="MANU">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                      <manufacturedMaterial>
+                        <code code="115" codeSystem="CVX" displayName="Tdap">
+                          <originalText><reference value="#Immunization-1"/></originalText>
+                        </code>
+                        <lotNumberText>U4853AA</lotNumberText>
+                      </manufacturedMaterial>
+                    </manufacturedProduct>
+                  </product>
+                </supply>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.18"/>
+          <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers"/>
+          <title>Insurance Providers</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Payer name</th>
+<th>Policy type / Coverage type</th>
+<th>Policy ID</th>
+<th>Covered party ID</th>
+<th>Covered party's relationship to holder</th>
+<th>Policy Holder</th>
+<th>Plan Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content>MEDICARE CA SOUTHERN</content>
+</td>
+<td>
+<content>UNK</content>
+</td>
+<td/>
+<td/>
+<td>
+<content>Self</content>
+</td>
+<td/>
+<td>
+<content ID="Plan-Name1">547581860TA</content>
+</td>
+</tr>
+<tr>
+<td>
+<content>BS CA PPO</content>
+</td>
+<td>
+<content>UNK</content>
+</td>
+<td/>
+<td/>
+<td>
+<content>Self</content>
+</td>
+<td/>
+<td>
+<content ID="Plan-Name3">XXXX11011111</content>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.60"/>
+              <id nullFlavor="UNK"/>
+              <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payment sources"/>
+              <statusCode code="completed"/>
+              <entryRelationship typeCode="COMP">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.61"/>
+                  <id root="2000033"/>
+                  <code xsi:type="CE" nullFlavor="UNK"/>
+                  <statusCode code="completed"/>
+                  <performer typeCode="PRF">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.87"/>
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id root="1129"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id nullFlavor="UNK"/>
+                        <name>MEDICARE CA SOUTHERN</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <participant typeCode="COV">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.89"/>
+                    <participantRole classCode="PAT">
+                      <id root="OCPRHIO"/>
+                      <code code="Self" displayName="Self"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity>
+                        <name><family>RACCOON</family><given>ROCKET</given></name>
+                        <sdtc:birthTime value="19690101000000-0800"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <participant typeCode="HLD">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.90"/>
+                    <participantRole>
+                      <id root="OCPRHIO"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="DEF">
+                      <id root="2000033" extension="2000033"/>
+                      <code nullFlavor="UNK"/>
+                      <text>547581860TA<reference value="Plan-Name1"/></text>
+                    </act>
+                  </entryRelationship>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.1.19"/>
+                      <id root="2000033"/>
+                      <code nullFlavor="UNK"/>
+                    </act>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.60"/>
+              <id nullFlavor="UNK"/>
+              <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payment sources"/>
+              <statusCode code="completed"/>
+              <entryRelationship typeCode="COMP">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.61"/>
+                  <id root="2000082"/>
+                  <code xsi:type="CE" nullFlavor="UNK"/>
+                  <statusCode code="completed"/>
+                  <performer typeCode="PRF">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.87"/>
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id root="0347"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id nullFlavor="UNK"/>
+                        <name>BS CA PPO</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <participant typeCode="COV">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.89"/>
+                    <participantRole classCode="PAT">
+                      <id root="OCPRHIO"/>
+                      <code code="Self" displayName="Self"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity>
+                        <name><family>RACCOON</family><given>ROCKET</given></name>
+                        <sdtc:birthTime value="19690101000000-0800"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <participant typeCode="HLD">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.90"/>
+                    <participantRole>
+                      <id root="OCPRHIO"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="DEF">
+                      <id root="2000082" extension="2000082"/>
+                      <code nullFlavor="UNK"/>
+                      <text>XXXX11011111<reference value="Plan-Name3"/></text>
+                    </act>
+                  </entryRelationship>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.1.19"/>
+                      <id root="2000082"/>
+                      <code nullFlavor="UNK"/>
+                    </act>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4"/>
+          <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+          <title>Vital Signs</title>
+          <text><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>3675140</td>
+<td>06/10/2014 02:41:44 PM PDT</td>
+<td>Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Range</th>
+<th>Interpretation Code</th>
+<th>Data Source(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>BP_systolic</th>
+<td>
+<content ID="entry-1-vitalsign-1">132 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>BP_diasolic</th>
+<td>
+<content ID="entry-1-vitalsign-2">86 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Height</th>
+<td>
+<content ID="entry-1-vitalsign-3">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Weight</th>
+<td>
+<content ID="entry-1-vitalsign-4">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>BMI</th>
+<td>
+<content ID="entry-1-vitalsign-5">23.00 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Alcohol_Use</th>
+<td>
+<content ID="entry-1-vitalsign-6">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Drug_Use</th>
+<td>
+<content ID="entry-1-vitalsign-7">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>5203220</td>
+<td>06/10/2014 02:41:44 PM PDT</td>
+<td>Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Range</th>
+<th>Interpretation Code</th>
+<th>Data Source(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Alcohol_Use</th>
+<td>
+<content ID="entry-2-vitalsign-1">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Alcohol_Amount</th>
+<td>
+<content ID="entry-2-vitalsign-2">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Drug_Use</th>
+<td>
+<content ID="entry-2-vitalsign-3">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <id root="3675140"/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="20140610144144-0700"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="5"/>
+                  <code code="5" displayName="BP_systolic"/>
+                  <text><reference value="#entry-1-vitalsign-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120111700-0800"/>
+                  <value xsi:type="PQ" value="132"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="6"/>
+                  <code code="6" displayName="BP_diasolic"/>
+                  <text><reference value="#entry-1-vitalsign-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120111700-0800"/>
+                  <value xsi:type="PQ" value="86"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="7"/>
+                  <code code="7" displayName="Height"/>
+                  <text><reference value="#entry-1-vitalsign-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120111700-0800"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>58.00 in</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="8"/>
+                  <code code="8" displayName="Weight"/>
+                  <text><reference value="#entry-1-vitalsign-4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120111700-0800"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>94.00 lb</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="9"/>
+                  <code code="9" displayName="BMI"/>
+                  <text><reference value="#entry-1-vitalsign-5"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120111700-0800"/>
+                  <value xsi:type="PQ" value="23.00"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1"/>
+                  <code code="1" displayName="Alcohol_Use"/>
+                  <text><reference value="#entry-1-vitalsign-6"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120103000-0800"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>N</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="4"/>
+                  <code code="4" displayName="Drug_Use"/>
+                  <text><reference value="#entry-1-vitalsign-7"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140120103000-0800"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>N</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+          <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <id root="5203220"/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="20140610144144-0700"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1"/>
+                  <code code="1" displayName="Alcohol_Use"/>
+                  <text><reference value="#entry-2-vitalsign-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20130805061500-0700"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>Y</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="5203220"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="2"/>
+                  <code code="2" displayName="Alcohol_Amount"/>
+                  <text><reference value="#entry-2-vitalsign-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20130805061500-0700"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>> 5 glasses</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="5203220"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="4"/>
+                  <code code="4" displayName="Drug_Use"/>
+                  <text><reference value="#entry-2-vitalsign-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20130805061500-0700"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>N</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="5203220"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

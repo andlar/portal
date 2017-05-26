@@ -1,0 +1,2918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xsi:schemaLocation="urn:hl7-org:v3 http://hit-testing.nist.gov:11080/hitspValidation/schema/cdar2c32/infrastructure/cda/C32_CDA.xsd">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <id root="OCPRHIO" extension="lW98YYnbGvEJfv_Z"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Summarization of Episode Note"/>
+  <title>Summarization of Episode Note</title>
+  <effectiveTime value="20161215110227-0800"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
+  <languageCode code="en-US"/>
+  <setId nullFlavor="NA"/>
+  <versionNumber nullFlavor="NA"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.1887.2" extension="170157"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="159261"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999124"/>
+      <id root="2.16.840.1.113883.3.2042.3" extension="8885559714"/>
+      <id root="2.16.840.1.113883.3.2042.3" extension="999124"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8885559714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="999124"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="8885559714"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="6104066"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="6040080365"/>
+      <id root="2.16.840.1.113883.3.1887.2" extension="6104066"/>
+      <addr><streetAddressLine>15 WEST ST</streetAddressLine><city>IRVINE</city><state>CA</state><postalCode>92620</postalCode><country>US</country></addr>
+      <telecom value="tel:(888)555-9714" use="HP"/>
+      <patient>
+        <name><family>MARVEL</family><given>GAMORA</given></name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGenderCode" displayName="F"/>
+        <birthTime value="20010101000000-0800"/>
+        <maritalStatusCode nullFlavor="UNK"/>
+        <religiousAffiliationCode nullFlavor="UNK"/>
+        <raceCode nullFlavor="UNK"/>
+        <ethnicGroupCode code="U" codeSystem="HL70189" displayName="Unknown / Not Reported"/>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20161215110227-0800"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <dataEnterer>
+    <time value="20161215110227-0800"/>
+    <assignedEntity>
+      <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+      <addr><country>US</country></addr>
+      <telecom nullFlavor="UNK"/>
+      <assignedPerson>
+        <name nullFlavor="NA"/>
+      </assignedPerson>
+      <representedOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedOrganization>
+    </assignedEntity>
+  </dataEnterer>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.3.1887.2" extension="OCPRHIO"/>
+        <name>OCPRHIO TEST</name>
+        <telecom nullFlavor="UNK"/>
+        <addr><country>US</country></addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+          <title>Allergies, Adverse Reactions, Alerts</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Type</th>
+<th>Substance</th>
+<th>Status</th>
+<th>Reaction</th>
+<th>Procedure Intervention Code</th>
+<th>Medication Intervention Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="allergy-type-1">UNK</content>
+</td>
+<td>
+<content ID="allergy-substance-1">No Known Allergies</content>
+</td>
+<td/>
+<td>
+<content ID="entry-1-allergy-reaction-1">Unknown </content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="allergy-type-2">UNK</content>
+</td>
+<td>
+<content ID="allergy-substance-2">morphine</content>
+</td>
+<td/>
+<td>
+<content ID="entry-2-allergy-reaction-1">Swelling/Edema </content>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="No Known Allergies"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <originalText><reference value="#allergy-type-1"/></originalText>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code code="No_Known_Allergies" displayName="No Known Allergies">
+                          <originalText><reference value="#allergy-substance-1"/></originalText>
+                        </code>
+                        <name nullFlavor="UNK"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id nullFlavor="UNK"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text><reference value="#entry-1-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="Unknown" displayName="Unknown"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id nullFlavor="UNK"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="morphine"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="UNK">
+                    <originalText><reference value="#allergy-type-2"/></originalText>
+                  </value>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity classCode="MMAT">
+                        <code code="morphine" displayName="morphine">
+                          <originalText><reference value="#allergy-substance-2"/></originalText>
+                        </code>
+                        <name nullFlavor="UNK"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id nullFlavor="UNK"/>
+                      <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                      <text><reference value="#entry-2-allergy-reaction-1"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                        <high nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="Swelling/Edema" displayName="Swelling/Edema"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use"/>
+          <title>Medications</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Description</th>
+<th>Medication</th>
+<th>Start Date</th>
+<th>Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+<th>Procedure Intervention Code</th>
+<th>Reaction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="medication-description-1"/>
+</td>
+<td>
+<content ID="medication-1">ACETAMINOPHEN 325 MG TABLET(ACETAMINOPHEN 325 MG TABLET)</content>
+</td>
+<td/>
+<td>
+<content>DC</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <substanceAdministration classCode="SBADM" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="M001CGQQZK"/>
+              <code nullFlavor="UNK"/>
+              <text><reference value="#medication-description-1"/></text>
+              <statusCode code="DC"/>
+              <routeCode nullFlavor="UNK"/>
+              <approachSiteCode nullFlavor="UNK"/>
+              <doseQuantity value="2" unit="tablet(s)"/>
+              <maxDoseQuantity>
+                <numerator nullFlavor="UNK"/>
+                <denominator nullFlavor="UNK"/>
+              </maxDoseQuantity>
+              <administrationUnitCode code="TABLET" displayName="TABLET"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <id nullFlavor="UNK"/>
+                  <manufacturedMaterial>
+                    <code code="00200" displayName="ACETAMINOPHEN 325 MG TABLET(ACETAMINOPHEN 325 MG TABLET)">
+                      <originalText><reference value="#medication-1"/></originalText>
+                    </code>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <performer>
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id nullFlavor="UNK"/>
+                  <code nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>KIRK</family><given>CHRISTINA</given><given>M</given><prefix>NP</prefix></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2037334014"/>
+                </encounter>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem List"/>
+          <title>Problems</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Concern Status</th>
+<th>Problem Code</th>
+<th>Problem Name</th>
+<th>Problem Description</th>
+<th>Problem Type</th>
+<th>Effective Dates</th>
+<th>Problem Status Description</th>
+<th>Health Status Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td/>
+<td>
+<content>V70.0</content>
+</td>
+<td>
+<content>ADULT HEALTH EXAMINATION</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-1"/>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>04/20/2014 10:30:00 AM PDT</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>V76.2</content>
+</td>
+<td>
+<content>Screening for malignant neoplasm of the cervix</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Screening for malignant neoplasm of the cervix </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content>12/21/2010 12:00:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td/>
+<td>
+<content>NEW PATIENT</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-3">NEW PATIENT </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>V16.3</content>
+</td>
+<td>
+<content>Family history of malignant neoplasm of breast</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-4">Family history of malignant neoplasm of breast </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>V76.10</content>
+</td>
+<td>
+<content>Breast cancer screening</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5">Breast cancer screening </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>V72.31</content>
+</td>
+<td>
+<content>Encounter for routine gynecological examination</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-6">Encounter for routine gynecological examination </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td/>
+<td>
+<content>624.8</content>
+</td>
+<td>
+<content>Labial cyst</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-7">Labial cyst </content>
+</td>
+<td>
+<content>Diagnosis</content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V70.0"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140420103000-0700"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V70.0"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text><reference value="#condition-diagnosis-description-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20140420103000-0700"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V70.0" displayName="ADULT HEALTH EXAMINATION"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V76.2"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20101221000000-0800"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V76.2"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>Screening for malignant neoplasm of the cervix <reference value="#condition-diagnosis-description-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low value="20101221000000-0800"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V76.2" codeSystem="ICD9" displayName="Screening for malignant neoplasm of the cervix"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="NEW PATIENT"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="NEW PATIENT"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>NEW PATIENT <reference value="#condition-diagnosis-description-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" displayName="NEW PATIENT"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V16.3"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V16.3"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>Family history of malignant neoplasm of breast <reference value="#condition-diagnosis-description-4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V16.3" codeSystem="ICD9" displayName="Family history of malignant neoplasm of breast"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V76.10"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V76.10"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>Breast cancer screening <reference value="#condition-diagnosis-description-5"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V76.10" codeSystem="ICD9" displayName="Breast cancer screening"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="V72.31"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="V72.31"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>Encounter for routine gynecological examination <reference value="#condition-diagnosis-description-6"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="V72.31" codeSystem="ICD9" displayName="Encounter for routine gynecological examination"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="624.8"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6" codeSystemName="HL7ActClass" displayName="Concern"/>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low nullFlavor="UNK"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="624.8"/>
+                  <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                  <text>Labial cyst <reference value="#condition-diagnosis-description-7"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="UNK"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="624.8" codeSystem="ICD9" displayName="Labial cyst"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                    </assignedAuthor>
+                  </author>
+                  <informant>
+                    <assignedEntity>
+                      <id extension="UCI"/>
+                      <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom value="tel:(714) 456-7890"/>
+                      <assignedPerson>
+                        <name nullFlavor="UNK"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="UCI"/>
+                        <name>UCI</name>
+                        <telecom value="tel:(714) 456-7890"/>
+                        <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </informant>
+                </observation>
+              </entryRelationship>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="UCI" extension="2008000333"/>
+                </encounter>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+          <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Procedures"/>
+          <title>Procedures</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Procedure</th>
+<th>Procedure Date</th>
+<th>Procedure Instructions</th>
+<th>Medication Description</th>
+<th>Medication</th>
+<th>Medication Start Date</th>
+<th>Medication Status</th>
+<th>Indications</th>
+<th>Patient Instructions</th>
+<th>Fill Instructions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="procedure-1">OFFICE/OUTPATIENT VISIT, EST</content>
+</td>
+<td>
+<content>04/20/2014 12:00:00 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <procedure classCode="PROC" moodCode="EVN" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="99213"/>
+              <code code="99213" displayName="OFFICE/OUTPATIENT VISIT, EST">
+                <originalText><reference value="#procedure-1"/></originalText>
+              </code>
+              <statusCode nullFlavor="UNK"/>
+              <effectiveTime>
+                <low value="20140420000000-0700"/>
+                <high nullFlavor="UNK"/>
+              </effectiveTime>
+              <priorityCode nullFlavor="UNK"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <entryRelationship typeCode="COMP" inversionInd="true">
+                <encounter classCode="ENC" moodCode="EVN">
+                  <id root="TEST" extension="3675140"/>
+                </encounter>
+              </entryRelationship>
+            </procedure>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Relevant diagnostic tests and/or laboratory data"/>
+          <title>Results</title>
+          <text><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>50941-4</td>
+<td>12/01/2014 09:00:00 AM PST</td>
+<td>St Jude</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Range</th>
+<th>Interpretation Code</th>
+<th>Notes</th>
+<th>Data Source(s)</th>
+<th>Supporting Document(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>AFB Culture Results</th>
+<td>
+<content>No Acid Fast Bacilli isolated 8 weeks</content>
+</td>
+<td/>
+<td/>
+<td>
+<content ID="entry-1-result-1-notes"/>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <organizer classCode="BATTERY" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="50941-4"/>
+              <id root="2.16.840.1.113883.3.248.999.996" extension="14:A0000092R"/>
+              <id root="2.16.840.1.113883.3.248.999.995" extension="14:A0000092R"/>
+              <id root="2.16.840.1.113883.3.248.999.994" extension="50941-4"/>
+              <code code="50941-4" codeSystem="LN" displayName="AFB Culture w Smear">
+                <translation code="AFBCSM" codeSystem="LB" displayName="AFB Culture w Smear"/>
+              </code>
+              <statusCode code="P"/>
+              <effectiveTime value="20141201090000-0800"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.3.2042.3" extension="2.16.840.1.113883.3.2042.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.3.2042.3" extension="SFM"/>
+                    <name>St Jude</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="AFBCSMCR"/>
+                  <code code="AFBCSMCR" codeSystem="LB" displayName="AFB Culture Results"/>
+                  <text><reference value="#entry-1-result-1-notes"/></text>
+                  <statusCode code="P"/>
+                  <effectiveTime value="20141201090000-0800"/>
+                  <value xsi:type="ST">No Acid Fast Bacilli isolated 8 weeks</value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <performer typeCode="PRF">
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id nullFlavor="UNK"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <representedOrganization>
+                        <id root="SFML"/>
+                        <name>St Jude Main Lab</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="2.16.840.1.113883.3.2042.3" extension="SFM"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="2.16.840.1.113883.3.2042.3" extension="SFM"/>
+                        <name>St Jude</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+          <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Encounters"/>
+          <title>Encounters</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Encounter</th>
+<th>Providers</th>
+<th>Location</th>
+<th>Date</th>
+<th>Problem Code</th>
+<th>Problem Name</th>
+<th>Problem Description</th>
+<th>Effective Dates</th>
+<th>Problem Status Description</th>
+<th>Health Status Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content ID="encounter1">O</content>
+</td>
+<td>
+<content>Attender: Daniel Abbott</content>
+</td>
+<td/>
+<td>
+<content>12/01/2014 09:01:08 AM PST</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td>
+<content>V76.2</content>
+</td>
+<td>
+<content>Screening for malignant neoplasm of the cervix</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Screening for malignant neoplasm of the cervix </content>
+</td>
+<td>
+<content>12/21/2010 12:00:00 AM PST</content>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td/>
+<td>
+<content>NEW PATIENT</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">NEW PATIENT </content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td>
+<content>V16.3</content>
+</td>
+<td>
+<content>Family history of malignant neoplasm of breast</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Family history of malignant neoplasm of breast </content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td>
+<content>V76.10</content>
+</td>
+<td>
+<content>Breast cancer screening</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Breast cancer screening </content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td>
+<content>V72.31</content>
+</td>
+<td>
+<content>Encounter for routine gynecological examination</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Encounter for routine gynecological examination </content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter2">O</content>
+</td>
+<td>
+<content>Attender: LEAH CENTANNI
+Referrer: Ray Aldridge MD</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/02/2014 01:25:09 PM PDT</content>
+</td>
+<td>
+<content>624.8</content>
+</td>
+<td>
+<content>Labial cyst</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-2">Labial cyst </content>
+</td>
+<td>
+<content/>
+</td>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter3">RECURRING OP</content>
+</td>
+<td>
+<content>Attender: CHRISTINA KIRK</content>
+</td>
+<td>
+<content>ERMAJ</content>
+</td>
+<td>
+<content>09/04/2014 10:30:56 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter4">O</content>
+</td>
+<td>
+<content>Attender: Daniel Abbott</content>
+</td>
+<td/>
+<td>
+<content>07/24/2014 09:01:08 AM PDT</content>
+</td>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<td>
+<content ID="encounter5">O</content>
+</td>
+<td>
+<content>Attender: TIM LE</content>
+</td>
+<td/>
+<td>
+<content>06/10/2014 02:41:44 PM PDT</content>
+</td>
+<td>
+<content>V70.0</content>
+</td>
+<td>
+<content>ADULT HEALTH EXAMINATION</content>
+</td>
+<td>
+<content ID="condition-diagnosis-description-5"/>
+</td>
+<td>
+<content>04/20/2014 10:30:00 AM PDT</content>
+</td>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="20141201113000"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter1"/></originalText>
+              </code>
+              <effectiveTime value="20141201090108-0800"/>
+              <priorityCode code="NA" displayName="NA"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.3.2042.3" extension="ABBDA001"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1518907864" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>Abbott</family><given>Daniel</given><given>L</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.3.2042.3" extension="2.16.840.1.113883.3.2042.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.3.2042.3" extension="SFM"/>
+                    <name>St Jude</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="2008000333"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter2"/></originalText>
+              </code>
+              <effectiveTime value="20140902132509-0700"/>
+              <priorityCode code="Scheduled_-_Elective" displayName="Scheduled - Elective"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="UCI" extension="603571"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>CENTANNI</family><given>LEAH</given><given>T</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="UCI" extension="6871327001"/>
+                  <id root="2.16.840.1.113883.4.6" extension="6871327001" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="REF" displayName="Referrer"/>
+                  <addr><streetAddressLine>5801 Brerno Road</streetAddressLine><city>Richmond</city><state>VA</state><postalCode>23114</postalCode><country>US</country></addr>
+                  <telecom value="tel:+1-888-555-5555"/>
+                  <assignedPerson>
+                    <name><family>Aldridge</family><given>Ray</given><suffix qualifier="TITLE">MD</suffix></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC">
+                    <name>ERMAJ</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V76.2"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>Screening for malignant neoplasm of the cervix <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20101221000000-0800"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V76.2" codeSystem="ICD9" displayName="Screening for malignant neoplasm of the cervix"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="NEW PATIENT"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>NEW PATIENT <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" displayName="NEW PATIENT"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V16.3"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>Family history of malignant neoplasm of breast <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V16.3" codeSystem="ICD9" displayName="Family history of malignant neoplasm of breast"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V76.10"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>Breast cancer screening <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V76.10" codeSystem="ICD9" displayName="Breast cancer screening"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V72.31"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>Encounter for routine gynecological examination <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V72.31" codeSystem="ICD9" displayName="Encounter for routine gynecological examination"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="624.8"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text>Labial cyst <reference value="#condition-diagnosis-description-2"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low nullFlavor="UNK"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="624.8" codeSystem="ICD9" displayName="Labial cyst"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="UCI"/>
+                          <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          <telecom value="tel:(714) 456-7890"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="UCI"/>
+                            <name>UCI</name>
+                            <telecom value="tel:(714) 456-7890"/>
+                            <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="2037334014"/>
+              <code code="RECURRING_OP" displayName="RECURRING OP">
+                <originalText><reference value="#encounter3"/></originalText>
+              </code>
+              <effectiveTime value="20140904103056-0700"/>
+              <priorityCode nullFlavor="UNK"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="UCI" extension="602946"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>KIRK</family><given>CHRISTINA</given><given>M</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="UCI"/>
+                  <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  <telecom value="tel:(714) 456-7890"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="UCI"/>
+                    <name>UCI</name>
+                    <telecom value="tel:(714) 456-7890"/>
+                    <addr><streetAddressLine>101 The City Drive South</streetAddressLine><city>Orange</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC">
+                    <name>ERMAJ</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="20140519113000"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter4"/></originalText>
+              </code>
+              <effectiveTime value="20140724090108-0700"/>
+              <priorityCode code="NA" displayName="NA"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.3.2042.3" extension="ABBDA001"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1518907864" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>Abbott</family><given>Daniel</given><given>L</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.3.2042.3" extension="2.16.840.1.113883.3.2042.3"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="2.16.840.1.113883.3.2042.3" extension="SFM"/>
+                    <name>St Jude</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+          <entry typeCode="DRIV">
+            <encounter classCode="ENC" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="3675140"/>
+              <code code="O" displayName="O">
+                <originalText><reference value="#encounter5"/></originalText>
+              </code>
+              <effectiveTime value="20140610144144-0700"/>
+              <priorityCode code="OFFICE/OUTPATIENT_VISIT" displayName="OFFICE/OUTPATIENT VISIT"/>
+              <performer typeCode="PRF">
+                <time>
+                  <low nullFlavor="UNK"/>
+                  <high nullFlavor="UNK"/>
+                </time>
+                <assignedEntity>
+                  <id root="TEST" extension="1630"/>
+                  <id root="2.16.840.1.113883.4.6" extension="1366480188" assigningAuthorityName="National Plan and Provider Enumeration System"/>
+                  <code code="ATND" displayName="Attender"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name><family>LE</family><given>TIM</given><given>T</given></name>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id nullFlavor="UNK"/>
+                    <name nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <id root="facility-id-for-classification"/>
+                  <code codeSystem="2.16.840.1.113883.6.259"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <playingEntity classCode="PLC"/>
+                </participantRole>
+              </participant>
+              <entryRelationship typeCode="REFR">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code xsi:type="CE" code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Diagnosis"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="V70.0"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <text><reference value="#condition-diagnosis-description-5"/></text>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20140420103000-0700"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="V70.0" displayName="ADULT HEALTH EXAMINATION"/>
+                      <author>
+                        <time nullFlavor="UNK"/>
+                        <assignedAuthor>
+                          <id nullFlavor="UNK"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="NA"/>
+                          </assignedPerson>
+                        </assignedAuthor>
+                      </author>
+                      <informant>
+                        <assignedEntity>
+                          <id extension="TEST"/>
+                          <addr nullFlavor="UNK"/>
+                          <telecom nullFlavor="UNK"/>
+                          <assignedPerson>
+                            <name nullFlavor="UNK"/>
+                          </assignedPerson>
+                          <representedOrganization>
+                            <id root="TEST"/>
+                            <name>Altamed Internal GHOST</name>
+                            <telecom nullFlavor="UNK"/>
+                            <addr nullFlavor="UNK"/>
+                          </representedOrganization>
+                        </assignedEntity>
+                      </informant>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+              <sdtc:dischargeDispositionCode codeSystem="2.16.840.1.113883.12.112" codeSystemName="HL7DischargeDisposition"/>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.18"/>
+          <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payers"/>
+          <title>Insurance Providers</title>
+          <text><table border="1" width="100%">
+<thead>
+<tr>
+<th>Payer name</th>
+<th>Policy type / Coverage type</th>
+<th>Policy ID</th>
+<th>Covered party ID</th>
+<th>Covered party's relationship to holder</th>
+<th>Policy Holder</th>
+<th>Plan Information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<content>FQHC NOBLE CALOP MCAL</content>
+</td>
+<td>
+<content>MANAGED CARE MEDI-CAL</content>
+</td>
+<td/>
+<td>
+<content>510000008888</content>
+</td>
+<td>
+<content>S</content>
+</td>
+<td/>
+<td>
+<content ID="Plan-Name1">97047909E</content>
+</td>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.60"/>
+              <id root="510000008888"/>
+              <code code="48768-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Payment sources"/>
+              <statusCode code="completed"/>
+              <entryRelationship typeCode="COMP">
+                <act classCode="ACT" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.61"/>
+                  <id nullFlavor="UNK"/>
+                  <code xsi:type="CE" code="MANAGED_CARE_MEDI-CAL" displayName="MANAGED CARE MEDI-CAL"/>
+                  <statusCode code="completed"/>
+                  <performer typeCode="PRF">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.87"/>
+                    <time>
+                      <low nullFlavor="UNK"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <assignedEntity>
+                      <id root="S16"/>
+                      <code nullFlavor="UNK"/>
+                      <addr><streetAddressLine>PO BOX 6301</streetAddressLine><city>CYPRESS</city><state>CA</state><postalCode>90630</postalCode><country>US</country></addr>
+                      <telecom value="(888)947-8600"/>
+                      <representedOrganization>
+                        <id nullFlavor="UNK"/>
+                        <name>FQHC NOBLE CALOP MCAL</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedEntity>
+                  </performer>
+                  <participant typeCode="COV">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.89"/>
+                    <time>
+                      <low value="20140801000000-0700"/>
+                      <high nullFlavor="UNK"/>
+                    </time>
+                    <participantRole classCode="PAT">
+                      <id root="OCPRHIO" extension="510000008888"/>
+                      <code code="S" displayName="S"/>
+                      <addr><streetAddressLine>15 WEST CULVER  14</streetAddressLine><city>ORANGE</city><state>CA</state><postalCode>92868</postalCode><country>US</country></addr>
+                      <telecom nullFlavor="UNK"/>
+                      <playingEntity>
+                        <name><family>MARVEL</family><given>GAMORA</given></name>
+                        <sdtc:birthTime value="19580327000000-0800"/>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <participant typeCode="HLD">
+                    <templateId root="2.16.840.1.113883.10.20.22.4.90"/>
+                    <participantRole>
+                      <id root="OCPRHIO"/>
+                      <code nullFlavor="UNK"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="DEF">
+                      <code code="MANAGED_CARE_MEDI-CAL" displayName="MANAGED CARE MEDI-CAL"/>
+                      <text>97047909E<reference value="Plan-Name1"/></text>
+                    </act>
+                  </entryRelationship>
+                  <entryRelationship typeCode="REFR">
+                    <act classCode="ACT" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.1.19"/>
+                      <id nullFlavor="UNK"/>
+                      <code code="MANAGED_CARE_MEDI-CAL" displayName="MANAGED CARE MEDI-CAL"/>
+                      <text>MANAGED CARE MEDI-CAL</text>
+                      <entryRelationship typeCode="SUBJ">
+                        <procedure classCode="PROC" moodCode="PRMS">
+                          <code code="FAM"/>
+                        </procedure>
+                      </entryRelationship>
+                    </act>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4"/>
+          <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+          <title>Vital Signs</title>
+          <text><table border="1" width="100%">
+<thead>
+<th>ID</th>
+<th>Date</th>
+<th>Data Source</th>
+<th>Notes</th>
+</thead>
+<tbody>
+<tr>
+<td>3675140</td>
+<td>06/10/2014 02:41:44 PM PDT</td>
+<td>Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST, Altamed Internal GHOST</td>
+<td/>
+</tr>
+</tbody>
+</table>
+<br/><table border="1" width="100%">
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+<th>Range</th>
+<th>Interpretation Code</th>
+<th>Data Source(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>BP_systolic</th>
+<td>
+<content ID="entry-1-vitalsign-1">132 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>BP_diasolic</th>
+<td>
+<content ID="entry-1-vitalsign-2">86 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Height</th>
+<td>
+<content ID="entry-1-vitalsign-3">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>Weight</th>
+<td>
+<content ID="entry-1-vitalsign-4">null </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+<tr>
+<th>BMI</th>
+<td>
+<content ID="entry-1-vitalsign-5">23.00 </content>
+</td>
+<td/>
+<td/>
+<td/>
+</tr>
+</tbody>
+</table>
+</text>
+          <entry typeCode="DRIV">
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <id root="3675140"/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="20140610144144-0700"/>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <author>
+                <time nullFlavor="UNK"/>
+                <assignedAuthor>
+                  <id nullFlavor="UNK"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="NA"/>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <informant>
+                <assignedEntity>
+                  <id extension="TEST"/>
+                  <addr nullFlavor="UNK"/>
+                  <telecom nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name nullFlavor="UNK"/>
+                  </assignedPerson>
+                  <representedOrganization>
+                    <id root="TEST"/>
+                    <name>Altamed Internal GHOST</name>
+                    <telecom nullFlavor="UNK"/>
+                    <addr nullFlavor="UNK"/>
+                  </representedOrganization>
+                </assignedEntity>
+              </informant>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="5"/>
+                  <code code="5" displayName="BP_systolic"/>
+                  <text><reference value="#entry-1-vitalsign-1"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140420111700-0700"/>
+                  <value xsi:type="PQ" value="132"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="6"/>
+                  <code code="6" displayName="BP_diasolic"/>
+                  <text><reference value="#entry-1-vitalsign-2"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140420111700-0700"/>
+                  <value xsi:type="PQ" value="86"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="7"/>
+                  <code code="7" displayName="Height"/>
+                  <text><reference value="#entry-1-vitalsign-3"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140420111700-0700"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>68.00 in</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="8"/>
+                  <code code="8" displayName="Weight"/>
+                  <text><reference value="#entry-1-vitalsign-4"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140420111700-0700"/>
+                  <value xsi:type="PQ">
+                    <translation nullFlavor="UNK">
+                      <originalText>110.00 lb</originalText>
+                    </translation>
+                  </value>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+              <component>
+                <observation classCode="OBS" moodCode="EVN" negationInd="false">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="9"/>
+                  <code code="9" displayName="BMI"/>
+                  <text><reference value="#entry-1-vitalsign-5"/></text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20140420111700-0700"/>
+                  <value xsi:type="PQ" value="23.00"/>
+                  <interpretationCode nullFlavor="UNK"/>
+                  <author>
+                    <time nullFlavor="UNK"/>
+                    <assignedAuthor>
+                      <id root="TEST"/>
+                      <addr nullFlavor="UNK"/>
+                      <telecom nullFlavor="UNK"/>
+                      <assignedPerson>
+                        <name nullFlavor="NA"/>
+                      </assignedPerson>
+                      <representedOrganization>
+                        <id root="TEST"/>
+                        <name>Altamed Internal GHOST</name>
+                        <telecom nullFlavor="UNK"/>
+                        <addr nullFlavor="UNK"/>
+                      </representedOrganization>
+                    </assignedAuthor>
+                  </author>
+                  <entryRelationship typeCode="COMP" inversionInd="true">
+                    <encounter classCode="ENC" moodCode="EVN">
+                      <id root="TEST" extension="3675140"/>
+                    </encounter>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange nullFlavor="UNK" classCode="OBS" moodCode="EVN.CRT"/>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
